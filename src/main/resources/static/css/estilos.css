@@ -1,0 +1,154 @@
+/*Tipos de fuentes*/
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+/* Body*/
+
+/*
+background-attachment: fixed;
+
+background-position: center;
+
+background-size: cover;
+*/
+/* General */
+body{
+    background-color: rgba();
+    background-image: url("imagen14.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+
+}
+
+h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 60px;
+}
+section{ 
+    width: 100%;
+    height:1000px ;
+    
+}
+.buscar{
+    width: 100%;
+}
+/* Vista principal */
+.vacio{
+    width: 100%;
+    height: 600px;  
+}
+.contenedorheader{
+    color: white;
+
+}
+
+
+.div-kalem{
+   padding-right: 50px;
+   color: white;
+}
+
+.jumbotron{
+    margin: 10%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+.buscar{
+    content: center;
+}
+.display-4{
+    text-align: center;
+}
+.lead{
+    text-align: center;
+}
+.btn{
+    background-color: white;
+}
+.navbar-toggler{
+    width: 100%;
+}
+.navbar-toggler-icon{
+    width: 100%;
+    background-color:rgba(246,246,246,0.3);
+    
+}
+.pagina1{
+    
+    background-color: #DDDBE0;
+   
+    
+}
+.contenedor-nav{
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.btn-1{
+    margin-left: 20px;
+    color: black;
+}
+a.navegacion{
+    text-decoration-line: none;
+    color: white;
+}
+.carousel{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+.carousel-item{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+.Texto-Aboutus{
+    
+}
+/* Pagina Contacto*/
+.pagina2{
+    background-color: #089C91;
+}
+
+/* Página Report*/
+.pagina3{
+    background-color: white;
+    color: black;
+}
+.central-contacto{
+   width: 100%;
+   height: 100%;
+}
+#dashboard{
+    align-content: right;
+}
+.tweets-container{
+    padding: 0;
+}
+.contenedor-titulo-tweets{
+    width: 100%;
+    background-color: rgba(246,246,246,0.3);
+}
+.row{
+    
+}
+.content-page4{
+
+}
+/* Login */
+.pagina4{
+    
+    color: black;
+    padding: 50px;
+}
+#btn-login{
+    background-color: black;
+}
+.columna-central{
+    width: 100%;
+    background-color: white;
+}
+
+.columas-login{
+    background-color: rgba(246,246,246,0.0);
+}
