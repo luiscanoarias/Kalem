@@ -8,5 +8,6 @@ public class KalemApplication {
     public static void main(String[] args) {
         SpringApplication.run(KalemApplication.class, args);
         
+        
     }
 }

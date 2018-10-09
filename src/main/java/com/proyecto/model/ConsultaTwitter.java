@@ -20,7 +20,7 @@ public class ConsultaTwitter {
     	
     	//Agregado para aumentar el numero de respuestas
     	Query otraQuery =  new Query(query);
-    	otraQuery.setCount(10);
+    	otraQuery.setCount(50);
     	//otraQuery.setLang("ES");	
     	
         QueryResult search = twitter.search(otraQuery);

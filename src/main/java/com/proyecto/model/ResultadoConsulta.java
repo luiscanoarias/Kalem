@@ -11,7 +11,10 @@ public class ResultadoConsulta {
 	int positivos;
 	int negativos;
 	int neutrales;
+	String tweetMasPositivo;
+	String tweetMasNegativo;
 	ArrayList<ConsultaSentimiento> tweets = new ArrayList<ConsultaSentimiento>();
+	ArrayList<String> entidades = new ArrayList<String>();
 	
 	public ResultadoConsulta() {
 	}
@@ -34,11 +37,26 @@ public class ResultadoConsulta {
 	public void setNeutrales(int neutrales) {
 		this.neutrales = neutrales;
 	}
+	public void setTweetMasPositivo(String tweetMasPositivo) {
+		this.tweetMasPositivo = tweetMasPositivo;
+	}
+	public void setTweetMasNegativo(String tweetMasNegativo) {
+		this.tweetMasNegativo = tweetMasNegativo;
+	}	
 	public void setTweets(ArrayList<ConsultaSentimiento> tweets) {
 		this.tweets = tweets;
 	}	
 	public void setTweet(ConsultaSentimiento consultaSentimiento) {
 		this.tweets.add(consultaSentimiento);
+	}
+	public void setEntidad(String entidad) {
+		this.entidades.add(entidad);
+	}
+	public void setEntidades(ArrayList<String> entidades) {
+		this.entidades = entidades;
+	}
+	public ArrayList<String> getEntidades(){
+		return this.entidades;
 	}
 	
 	public String aJson() {
